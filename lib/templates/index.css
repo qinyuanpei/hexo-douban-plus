@@ -2,15 +2,23 @@
 .hexo-douban-tabs {
     margin-bottom: 15px;
     margin-top: 15px;
+    text-align: center; /* 新增 */
 }
 
 .hexo-douban-tab {
+    color: #303f9f; /* 新增 */
     padding: 5px;
 }
 
+/* 新增 .hexo-douban-tab:hover */
+.hexo-douban-tab:hover {
+    color: #ff4081;
+}
+
 .hexo-douban-active {
-    background: #657b83;
-    color: #fff;
+    /* background: #657b83; */
+    /* color: #fff; */
+    color: #ff4081;
 }
 
 .hexo-douban-item {
@@ -59,8 +67,9 @@
 }
 
 .hexo-douban-button:hover {
-    background: #657b83;
-    color: #fff;
+    /* background: #657b83; */
+    /* color: #fff; */
+    color: #ff4081;
 }
 
 .hexo-douban-hide {
